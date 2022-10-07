@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSD_FILE_PATH">
+
+    <SMP_ScampussAppears>{0} ringing a bell has caused a scampuss to appear</SMP_ScampussAppears>
+    <SMP_ScampussLeavesBell>{0} has left a {1} before departing</SMP_ScampussLeavesBell>
+	
+</LanguageData>

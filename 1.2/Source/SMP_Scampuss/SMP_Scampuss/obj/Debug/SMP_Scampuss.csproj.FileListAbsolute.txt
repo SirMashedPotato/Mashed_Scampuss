@@ -1,0 +1,4 @@
+C:\Users\andre\Desktop\Rimworld\Other\Scampuss\Assemblies\SMP_Scampuss.dll
+C:\Users\andre\Desktop\Rimworld\Other\Scampuss\Source\SMP_Scampuss\SMP_Scampuss\obj\Debug\SMP_Scampuss.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\Rimworld\Other\Scampuss\Source\SMP_Scampuss\SMP_Scampuss\obj\Debug\SMP_Scampuss.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Rimworld\Other\Scampuss\Source\SMP_Scampuss\SMP_Scampuss\obj\Debug\SMP_Scampuss.dll

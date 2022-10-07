@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[XND] Nocturnal Animals</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName="SMP_Scampuss"]</xpath>
+					<value>
+						<li Class="NocturnalAnimals.ExtendedRaceProperties">
+							<bodyClock>Crepuscular</bodyClock>
+						</li>
+					</value>			
+				</li>			
+
+			</operations>
+		</match>
+	</Operation>
+		
+</Patch>
+

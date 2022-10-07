@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<thingClass>ThingWithComps</thingClass>
+		<defName>Mashed_ScampussBell</defName>
+		<label>clay bell of beckoning</label>
+		<description>A small clay bell, crafted to resemble a rather corpulent cat.\n\nScampuss seem to be particularly fond of the sound these bells make, and one will often appear nearby when one of these bells is rung. The bell is rather fragile, and will break after use.</description>
+		<techLevel>Medieval</techLevel>
+		<thingCategories>
+			<li>Artifacts</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+			<li>Artifact</li>
+		</tradeTags>
+		<graphicData>
+			<texPath>Things/Item/Special/SMP_ScampussBell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<tradeNeverStack>true</tradeNeverStack>
+		<statBases>
+			<Mass>0.5</Mass>
+			<MarketValue>300</MarketValue>
+			<MaxHitPoints>25</MaxHitPoints>
+		</statBases>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseArtifact</useJob>
+				<useLabel>Activate</useLabel>
+			</li>
+			<li Class="SMP_Scampuss.CompProperties_UseEffect_ScampussBell">
+				<pawnDef>Mashed_Scampuss</pawnDef>
+				<soundDef>TinyBell</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>
