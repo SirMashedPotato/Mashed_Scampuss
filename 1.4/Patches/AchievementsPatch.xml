@@ -16,8 +16,8 @@
 					<value>
 
 						<AchievementsExpanded.AchievementTabDef>
-							<defName>SMP_AchievementsTab</defName>
-							<label>SMP Misc</label>
+							<defName>Mashed_AchievementsTab</defName>
+							<label>Mashed</label>
 						</AchievementsExpanded.AchievementTabDef>
 
 						<!-- -->
@@ -27,7 +27,7 @@
 							<label>Scampuss On Demand</label>
 							<description>Obtain your first clay bell of beckoning</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.ItemTracker">
 								<def>Mashed_ScampussBell</def>
 								<count>1</count>
@@ -42,7 +42,7 @@
 							<label>Chonk Squad</label>
 							<description>Have three scampuss at the same time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
@@ -61,7 +61,7 @@
 							<label>Invigorated</label>
 							<description>Have a pawn be invigorated by a scampuss</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>Mashed_ScampussInvigorate</def>
 								<count>1</count>
