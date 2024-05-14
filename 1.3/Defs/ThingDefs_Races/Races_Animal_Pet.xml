@@ -12,12 +12,12 @@
 		</statBases>
 		<!-- VE Framework comps -->
 		<comps>
-			<li Class="AnimalBehaviours.CompProperties_Blink">
+			<li Class="AnimalBehaviours.CompProperties_Blink" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
 				<blinkInterval>3000</blinkInterval>
 				<distance>5~10</distance>
 				<warpEffect>false</warpEffect>
 			</li>
-			<li Class="AnimalBehaviours.CompProperties_HediffEffecter">
+			<li Class="AnimalBehaviours.CompProperties_HediffEffecter" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
 				<radius>10</radius>
 				<severity>1</severity>
 				<tickInterval>2000</tickInterval>
