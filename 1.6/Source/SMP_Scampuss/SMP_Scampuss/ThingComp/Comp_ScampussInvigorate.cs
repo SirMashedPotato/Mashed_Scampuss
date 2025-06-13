@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Verse;
-using static UnityEngine.GraphicsBuffer;
 
 namespace SMP_Scampuss
 {
