@@ -13,7 +13,7 @@ namespace SMP_Scampuss
         {
             base.CompTickInterval(delta);
 
-            if (parent.IsHashIntervalTick(Props.TicksBetween()))
+            if (parent.IsHashIntervalTick(Props.TicksBetween(), delta))
             {
                 Pawn pawn = parent as Pawn;
                 if (!pawn.Spawned || pawn.Dead)
