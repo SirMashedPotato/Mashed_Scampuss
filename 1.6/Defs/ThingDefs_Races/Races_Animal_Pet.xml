@@ -14,7 +14,8 @@
 			<li Class="SMP_Scampuss.CompProperties_ScampussInvigorate">
 				<radius>6</radius>
 				<hoursBetween>6</hoursBetween>
-				<hediffDef>Mashed_ScampussInvigorate</hediffDef>
+				<needDef>Rest</needDef>
+				<offset>0.1</offset>
 				<moteDef>Mote_Thought</moteDef>
 				<iconPath>Things/Mote/SMP_ScampussMote</iconPath>
 			</li>

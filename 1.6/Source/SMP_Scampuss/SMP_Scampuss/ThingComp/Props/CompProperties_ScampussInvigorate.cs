@@ -10,7 +10,8 @@ namespace SMP_Scampuss
 
         public int radius = 6;
         public int hoursBetween = 6;
-        public HediffDef hediffDef;
+        public float offset = 1f;
+        public NeedDef needDef;
         public ThingDef moteDef;
         [NoTranslate]
         public string iconPath;

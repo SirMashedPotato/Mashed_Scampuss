@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<AchievementsExpanded.AchievementDef Name="Mashed_AchievementScampuss_Base" Abstract="True">
+		<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+		<tab>Mashed_AchievementsTab</tab>
+	</AchievementsExpanded.AchievementDef>
+	<!-- ==========[Achievements]========== -->
+	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementScampuss_Base">
+		<defName>SMP_Achievement_ScampussBell</defName>
+		<label>Scampuss On Demand</label>
+		<description>Obtain your first clay bell of beckoning</description>
+		<tracker Class="AchievementsExpanded.ItemTracker">
+			<def>SMP_ScampussBell</def>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/Mashed_Achievement_ScampussBell</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementScampuss_Base">
+		<defName>SMP_Achievement_ThreeScampuss</defName>
+		<label>Chonk Squad</label>
+		<description>Have three scampuss at the same time</description>
+		<tracker Class="AchievementsExpanded.KindDefTracker">
+			<kindDefs>
+				<li>
+					<key>SMP_Scampuss</key>
+					<value>3</value>
+				</li>
+			</kindDefs>
+		</tracker>
+		<texPath>Achievements/Mashed_Achievement_ThreeScampuss</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementScampuss_Base">
+		<defName>SMP_Achievement_ScampussNuzzle</defName>
+		<label>Invigorated</label>
+		<description>Have a pawn be invigorated by a scampuss</description>
+		<tracker Class="AchievementsExpanded.HediffTracker">
+			<def>SMP_ScampussInvigorate</def>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/Mashed_Achievement_ScampussNuzzle</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+</Defs>

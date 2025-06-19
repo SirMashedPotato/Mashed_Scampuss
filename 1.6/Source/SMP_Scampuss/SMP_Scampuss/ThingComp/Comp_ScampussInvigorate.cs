@@ -37,8 +37,19 @@ namespace SMP_Scampuss
                 {
                     if (target.IsColonist)
                     {
-                        target.health.GetOrAddHediff(Props.hediffDef).Severity = 1f;
-                        MoteMaker.MakeInteractionBubble(target, parent as Pawn, Props.moteDef, ContentFinder<Texture2D>.Get(Props.iconPath));
+                        if (target.needs != null && target.needs.TryGetNeed(Props.needDef, out Need need))
+                        {
+                            float finalOffset = Props.offset;
+
+                            if (!TrainableUtility.GetAllColonistBondsFor(parent as Pawn).EnumerableNullOrEmpty())
+                            {
+                                finalOffset *= 2f;
+                            }
+
+                            need.CurLevel += finalOffset;
+                            MoteMaker.MakeInteractionBubble(target, parent as Pawn, Props.moteDef, ContentFinder<Texture2D>.Get(Props.iconPath));
+
+                        }
                     }
                 }
             }
